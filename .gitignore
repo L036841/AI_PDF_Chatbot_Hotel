@@ -1,0 +1,36 @@
+# Secrets — never commit real credentials
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Large data files — supply your own PDF
+Landon-Hotel.pdf
+pdf_text.txt
+
+# macOS
+.DS_Store
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# Word / Office docs
+*.docx
+
+# Claude IDE settings (local only)
+.claude/
+
+# Local dev/test scripts (contain credentials, not needed for showcase)
+02_01.py
+02_02.py
+Success_LLMconnection_reusable.py
